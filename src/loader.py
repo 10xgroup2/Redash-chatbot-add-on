@@ -4,6 +4,7 @@ import glob
 import os
 from dotenv import load_dotenv
 from sqlalchemy import create_engine
+import psycopg2
 
 # Load environment variables from .env file
 load_dotenv()
